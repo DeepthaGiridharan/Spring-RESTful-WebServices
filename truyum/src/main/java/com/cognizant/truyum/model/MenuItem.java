@@ -8,6 +8,7 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotBlank;
 import org.hibernate.validator.constraints.Range;
+import org.springframework.stereotype.Component;
 @Component
 public class MenuItem {
 	private long id;
