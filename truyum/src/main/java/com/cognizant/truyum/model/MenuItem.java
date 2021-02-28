@@ -8,7 +8,7 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotBlank;
 import org.hibernate.validator.constraints.Range;
-
+@Component
 public class MenuItem {
 	private long id;
 	@NotBlank(message="Title is required")
